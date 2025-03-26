@@ -31,3 +31,16 @@ A React-based movie ticket booking platform designed to provide users with an in
 ->Secondary Button
 ->Disabled Button
 
+*Tech Stack
+>Frontend: React.js
+>Styling: Bootstrap & Inline CSS
+>State Management: React Hooks
+
+🚀 Getting Started
+1.Clone the repository:
+git clone https://github.com/your-username/movie-booking-app.git
+cd movie-booking-app
+2.Install dependencies:
+npm install
+3.Start the development server:
+npm start or npm run dev
