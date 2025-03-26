@@ -1,12 +1,33 @@
-# React + Vite
+🎬 Movie Ticket Booking App (BookMyShow 2.0)
+A React-based movie ticket booking platform designed to provide users with an intuitive and seamless experience while browsing and booking movie tickets. This project replicates key functionalities of BookMyShow, including navigation, movie listings, filtering, and responsive UI.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+📌 Features
+1.Navigation Bar (Navbar)
+->Logo placed on the left for branding.
+->Menu items included: Movies, Events, Sports, Offers, etc.
+->Search bar for easy movie/event lookup.
+->User profile options (Sign in / Sign out).
+->Fully responsive using Bootstrap.
 
-Currently, two official plugins are available:
+2.Carousels for Featured Movies & Events
+->Displays movies and events in a visually appealing way.
+->Shows images, titles, and event names.
+->Includes navigation buttons (Previous & Next).
+->Auto-scroll functionality for a smooth browsing experience.
+->Smooth transition effects.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+3.Movie Listings Page
+->Displays movie details in a table format.
+->Includes key details:
+-Movie Name
+-Genre
+-Release Date
+-Ratings
+-Ticket Price
+-Sorting/filtering feature 
 
-## Expanding the ESLint configuration
+4.Button Styling
+->Primary Button 
+->Secondary Button
+->Disabled Button
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
