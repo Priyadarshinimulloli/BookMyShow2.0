@@ -3,7 +3,7 @@ import { Container, Navbar, Form, NavDropdown, Button, Nav } from "react-bootstr
 import { Link } from "react-router-dom";
 import logo from "../assets/logo/2-bookmyshow.png";
 
-export default function NavigationBar() {
+export default function NavigationBar({ darkMode, setDarkMode }) {
   return (
     <div>
       <Navbar expand="lg" className="bg-light">
@@ -29,15 +29,17 @@ export default function NavigationBar() {
                 <NavDropdown.Item href="#">Chennai</NavDropdown.Item>
                 <NavDropdown.Item href="#">Hyderabad</NavDropdown.Item>
               </NavDropdown>
-              <Button variant="light" className="bg-danger text-white">
+              <Button variant="light" className="bg-danger text-white me-2">
                 Sign In
               </Button>
+              <button className="dark-mode-toggle" onClick={() => setDarkMode(!darkMode)}>
+                {darkMode ? "🌙" : "☀️"}
+              </button>
             </div>
           </Navbar.Collapse>
         </Container>
       </Navbar>
 
-      
       <Navbar expand="lg" className="bg-dark mt-2">
         <Container>
           <Nav className="d-flex flex-wrap">
