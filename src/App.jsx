@@ -5,6 +5,7 @@ import Carouselcomponent from "./components/Carouselcomponent";
 import Movie from "./components/Movie";
 import MoviesPage from "./components/MoviesPage";
 import "./components/style.css";
+import Footer from"./components/Footer";
 
 export default function App() {
   const [darkMode, setDarkMode] = useState(
@@ -24,6 +25,7 @@ export default function App() {
           <Route path="/" element={<><Carouselcomponent /><Movie /></>} />
           <Route path="/movies" element={<MoviesPage />} />
         </Routes>
+        <Footer/>
       </div>
     </Router>
   );
